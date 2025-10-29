@@ -1,0 +1,33 @@
+EURAUD M5
+
+2024.06.24 19:25
+2024.06.28 06:35
+2024.06.28 17:50
+
+2024.07.02 08:15
+2024.07.03 08:05
+2024.07.03 16:50
+   2024.07.04 12:35
+2024.07.10 16:05
+2024.07.16 17:45
+2024.07.17 04:15 ??
+2024.07.17 12:00
+2024.07.26 11:25
+2024.07.26 19:20
+2024.07.29 20:10 → try watching out for opp levels
+
+2024.08.01 09:15
+2024.08.06 09:05
+2024.08.07 04:05 → try after sell and bsl
+2024.08.09 05:05
+
+
+
+another thing to clarify the low price wont necessaryily be the low price of the red candle. as you know we can have green candle as the low price. i think we can have like 3 lines representing a color change level. where one is for the red cd closing, another is for the red cd low wick price, and another is for the green cd low wick price.
+
+
+Strict Time Windows: The entire process—Zone Creation, Breakout, and Retest—must happen within a defined, compact window of time.
+New Rule: When a blue zone is created, the indicator will now only look for a breakout within a fixed Breakout_Window (e.g., 25 candles) after the zone is formed.
+If a breakout occurs in that window, it will then only look for a retest within a fixed Retest_Window (e.g., 15 candles) after the breakout.
+Result: This forces the entire setup to be "immediate" and local, as you require. Zones far in the past will not be considered.
+Clean Separation of Logic: The code will be restructured to be cleaner and follow our tested steps without error.
